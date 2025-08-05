@@ -13,6 +13,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # ------------------ Setup ------------------
+
 nltk.download('stopwords')
 nltk.download('wordnet')
 stop_words = set(stopwords.words('english'))
